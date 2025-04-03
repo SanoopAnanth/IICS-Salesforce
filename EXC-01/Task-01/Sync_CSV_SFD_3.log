@@ -1,0 +1,158 @@
+Agent Group Id: 012X2125000000000002
+Agent Group Name: d7196d40027d593
+Agent Name: d7196d40027d593
+Agent Id: 012X2108000000000002
+Task Name: Sync_CSV_SFD
+Task Type: DSS
+Task Id: 012X210I000000000004
+Run Id: 3
+Service Id: 1837301
+Started By: ananthsanoop2003@gmail.com
+Run Context Type: ICS_UI
+03/28/2025 18:46:02 **** Importing Connection: TargConn_012X210B000000000005 ...
+03/28/2025 18:46:02 **** Importing Source Definition: Exc1_csv ...
+03/28/2025 18:46:02 **** Importing Target Definition: Account ...
+03/28/2025 18:46:02 **** Importing SessionConfig: cfg_s_dss_012X210I000000000004 ...
+    <Warning> :  The Error Log DB Connection value should have Relational: as the prefix.
+    <Warning> :  Invalid value  for attribute Error Log DB Connection. Will use the default value 
+    Validating Target Definition  Account...
+    Validating Source Definition  Exc1_csv...
+03/28/2025 18:46:02 **** Importing Mapping: m_dss_012X210I000000000004 ...
+Validating transformations of mapping m_dss_012X210I000000000004...
+Validating mapping variable(s).
+03/28/2025 18:46:02 **** Importing Workflow: wf_dss_012X210I000000000004 ...
+    <Warning> :  Invalid value None for attribute Pushdown Optimization Context. Will use the default value None     [Session< s_dss_012X210I000000000004 > ] 
+    <Warning> :  The value entered is not a valid integer.
+    <Warning> :  Invalid value NO for attribute Fail task after wait time. Will use the default value 
+Successfully extracted session instance [s_dss_012X210I000000000004].  Starting repository sequence id is [428554134]
+======================================================================
+DIRECTOR> VAR_27085 [2025-03-28 18:46:02.685] Parameter file [D:\apps\Data_Integration_Server\data\parameters\s_dss_012X210I000000000004.param] is opened for [session [wf_dss_012X210I000000000004.s_dss_012X210I000000000004]].
+DIRECTOR> VAR_27062 [2025-03-28 18:46:02.686] Warning! Cannot find section for worklet [wf_dss_012X210I000000000004] and folder [] in parameter file [D:\apps\Data_Integration_Server\data\parameters\s_dss_012X210I000000000004.param].
+DIRECTOR> TM_6014 [2025-03-28 18:46:02.687] Initializing session [s_dss_012X210I000000000004] at [Fri Mar 28 18:46:02 2025].
+DIRECTOR> TM_6683 [2025-03-28 18:46:02.687] Repository Name: [XMLRepository]
+DIRECTOR> TM_6684 [2025-03-28 18:46:02.687] Server Name: [rDTM]
+DIRECTOR> TM_6686 [2025-03-28 18:46:02.694] Folder: []
+DIRECTOR> TM_6685 [2025-03-28 18:46:02.694] Workflow: [wf_dss_012X210I000000000004] Run Instance Name: [] Run Id: [0]
+DIRECTOR> TM_6992 [2025-03-28 18:46:02.694] Operating System Type [NT]
+DIRECTOR> TM_6101 [2025-03-28 18:46:02.694] Mapping name: m_dss_012X210I000000000004.
+DIRECTOR> TM_6964 [2025-03-28 18:46:02.694] Date format for the Session is [MM/DD/YYYY HH24:MI:SS]
+DIRECTOR> TM_6703 [2025-03-28 18:46:02.695] Session [s_dss_012X210I000000000004] is run by 64-bit Integration Service  [], version [10.2.0 HotFix2], build [0321].
+MANAGER> PETL_24091 [2025-03-28 18:46:04.815] Thread [MANAGER] has the ID [1].
+MANAGER> PETL_24058 [2025-03-28 18:46:04.815] Running Partition Group [1].
+MANAGER> PETL_24000 [2025-03-28 18:46:04.815] Parallel Pipeline Engine initializing.
+MONITOR> PETL_24091 [2025-03-28 18:46:04.816] Thread [MONITOR] has the ID [2].
+MANAGER> PETL_24001 [2025-03-28 18:46:04.816] Parallel Pipeline Engine running.
+MANAGER> PETL_24003 [2025-03-28 18:46:04.816] Initializing session run.
+MAPPING> PETL_24091 [2025-03-28 18:46:04.817] Thread [MAPPING] has the ID [3].
+MAPPING> CMN_1569 [2025-03-28 18:46:04.820] Server Mode: [UNICODE]
+MAPPING> CMN_1570 [2025-03-28 18:46:04.820] Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+MAPPING> TM_6151 [2025-03-28 18:46:04.820] The session sort order is [Binary].
+MAPPING> TM_6185 [2025-03-28 18:46:04.820] Warning. Code page validation is disabled in this session.
+MAPPING> CMN_65109 [2025-03-28 18:46:04.820] Current Timezone:[UTC +5:30]
+MAPPING> CMN_65111 [2025-03-28 18:46:04.820] Current Process ID:[9168]
+MAPPING> TM_6155 [2025-03-28 18:46:04.820] Using HIGH precision processing.
+MAPPING> TM_6180 [2025-03-28 18:46:04.820] Deadlock retry logic will not be implemented.
+MAPPING> TM_6181 [2025-03-28 18:46:04.820] Session source-based commit interval is [5000].
+MAPPING> PMJVM_42020 [2025-03-28 18:46:04.827] [INFO] Loaded library : D:\apps\agentcore\.\..\..\jdk8\jre\bin\server\jvm.dll.
+MAPPING> PMJVM_42009 [2025-03-28 18:46:04.902] [INFO] Created Java VM successfully.
+MAPPING> SDKS_38029 [2025-03-28 18:46:05.001] Loaded plug-in 500100: [plugin description].
+MAPPING> SDKS_38024 [2025-03-28 18:46:05.072] Plug-in 500100 initialization complete.
+MAPPING> SDKS_38017 [2025-03-28 18:46:05.072] Writer SDK plug-in initialization complete.
+MAPPING> SDKS_38509 [2025-03-28 18:46:05.662] SDK target and group initialization complete.
+MAPPING> TM_6308 [2025-03-28 18:46:05.662] DTM error log using code page UTF-8.
+MAPPING> TM_6310 [2025-03-28 18:46:05.662] DTM error log enabled at file [D:\apps\Data_Integration_Server\data\error\s_dss_012X210I000000000004_3_error.csv].
+MAPPING> TM_6682 [2025-03-28 18:46:05.662] Warning: Since DTM Error Logging is enabled, row level errors will not be written to the session log. Please check the DTM Error Log for any row level errors.
+MAPPING> TM_6701 [2025-03-28 18:46:05.663] Warning: The data column delimiter for DTM Error logging and the flat file delimiter are the same [','].
+MAPPING> TE_7022 [2025-03-28 18:46:05.663] TShmWriter: Initialized
+MAPPING> DBG_21491 [2025-03-28 18:46:05.664] Source-based commit interval based on rows from Source Qualifier [SQ_Exc1_csv]
+MAPPING> DBG_21244 [2025-03-28 18:46:05.665] Initializing Load Order Group [1]. Source Qualifier is [SQ_Exc1_csv]
+MAPPING> TM_6007 [2025-03-28 18:46:05.666] DTM initialized successfully for session [s_dss_012X210I000000000004]
+DIRECTOR> PETL_24033 [2025-03-28 18:46:05.666] All DTM Connection Info: [<NONE>].
+MANAGER> PETL_24004 [2025-03-28 18:46:05.666] Starting pre-session tasks. : (Fri Mar 28 18:46:05 2025)
+PRE-SESS> PETL_24091 [2025-03-28 18:46:05.667] Thread [PRE-SESS] has the ID [4].
+MANAGER> PETL_24027 [2025-03-28 18:46:05.735] Pre-session task completed successfully. : (Fri Mar 28 18:46:05 2025)
+DIRECTOR> PETL_24006 [2025-03-28 18:46:05.735] Starting data movement.
+MAPPING> TM_6660 [2025-03-28 18:46:05.735] Total Buffer Pool size is 11518384 bytes and Block size is 637688 bytes.
+READER_1_1_1> PETL_24091 [2025-03-28 18:46:05.737] Thread [READER_1_1_1] has the ID [5].
+READER_1_1_1> DBG_21437 [2025-03-28 18:46:05.738] Reader: Source is a file-based source.
+READER_1_1_1> FR_3118 [2025-03-28 18:46:05.739] source [SQ_Exc1_csv] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+READER_1_1_1> FR_3071 [2025-03-28 18:46:05.739] Maximum Line sequential buffer length is 1516.
+READER_1_1_1> BLKR_16003 [2025-03-28 18:46:05.739] Initialization completed successfully.
+TRANSF_1_1_1> PETL_24091 [2025-03-28 18:46:05.740] Thread [TRANSF_1_1_1] has the ID [6].
+WRITER_1_*_1> PETL_24091 [2025-03-28 18:46:05.742] Thread [WRITER_1_*_1] has the ID [7].
+WRITER_1_*_1> SalesforceConnection_10057 [2025-03-28 18:46:05.880] [INFO] No proxy information set.
+WRITER_1_*_1> SalesforceConnection_10048 [2025-03-28 18:46:08.376] [INFO] Account[sanoopananth2003703@agentforce.com] logged on salesforce.com at [https://login.salesforce.com/services/Soap/u/60.0].
+WRITER_1_*_1> SalesforceConnection_10147 [2025-03-28 18:46:08.376] [INFO] Logged on salesforce.com in [Standard] mode.
+WRITER_1_*_1> SFDC_WRITER_10065 [2025-03-28 18:46:08.388] [INFO] Inserted Target Batch Size [200].
+WRITER_1_*_1> GENERIC_WRITER_10036 [2025-03-28 18:46:08.391] [WARNING] Success file directory is empty or starts with a $. Defaulting it to $PMTargetFileDir.
+WRITER_1_*_1> GENERIC_WRITER_10037 [2025-03-28 18:46:08.392] [WARNING] Error file directory is empty or starts with a $. Defaulting it to $PMBadFileDir.
+WRITER_1_*_1> SFDC_WRITER_10113 [2025-03-28 18:46:08.395] [INFO] The Save Error Rows option is set. The error file [D:\apps\Data_Integration_Server\data\error\s_dss_012X210I000000000004_3_28_2025_18_46_standard_error.csv] will be generated.
+WRITER_1_*_1> WRT_8270 [2025-03-28 18:46:08.398] Target connection group #1 consists of target(s) [Account: Partition 1]
+WRITER_1_*_1> WRT_8324 [2025-03-28 18:46:08.398] Warning: Target Connection Group's connection doesn't support transactions. Targets [Account: Partition 1] may not be loaded according to specified transaction boundary rules!
+WRITER_1_*_1> WRT_8003 [2025-03-28 18:46:08.398] Writer initialization complete.
+READER_1_1_1> BLKR_16007 [2025-03-28 18:46:08.398] Reader run started.
+WRITER_1_*_1> WRT_8005 [2025-03-28 18:46:08.398] Writer run started.
+WRITER_1_*_1> WRT_8158 [2025-03-28 18:46:08.398] 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Fri Mar 28 18:46:07 2025
+
+Target tables:
+
+     Account: Partition 1
+
+
+READER_1_1_1> _3120 [2025-03-28 18:46:08.399] Number of column in metadata are more than source file.
+READER_1_1_1> FR_3076 [2025-03-28 18:46:08.399] Skipped over [1] lines.
+READER_1_1_1> DBG_21430 [2025-03-28 18:46:08.399] Reading data from input source file [C:\IICSLabFiles\Exc1.csv] : (Fri Mar 28 18:46:08 2025)
+READER_1_1_1> BLKR_16019 [2025-03-28 18:46:08.399] Read [10] rows, read [0] error rows for source table [Exc1_csv] instance name [Exc1_csv]
+READER_1_1_1> BLKR_16008 [2025-03-28 18:46:08.399] Reader run completed.
+TRANSF_1_1_1> DBG_21216 [2025-03-28 18:46:08.399] Finished transformations for Source Qualifier [SQ_Exc1_csv]. Total errors [0] 
+WRITER_1_*_1> WRT_8167 [2025-03-28 18:46:08.399] Start loading table [Account: Partition 1] at: Fri Mar 28 18:46:07 2025
+WRITER_1_*_1> WRT_8168 [2025-03-28 18:46:09.208] End loading table [Account: Partition 1] at: Fri Mar 28 18:46:08 2025
+WRITER_1_*_1> WRT_8035 [2025-03-28 18:46:09.219] Load complete time: Fri Mar 28 18:46:08 2025
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: Account: Partition 1 (Instance Name: [Account])
+WRT_8038 Inserted rows - Requested: 10         Applied: 10         Rejected: 0          Affected: 10        
+
+
+WRITER_1_*_1> WRT_8043 [2025-03-28 18:46:09.219] *****END LOAD SESSION*****
+WRITER_1_*_1> WRT_8006 [2025-03-28 18:46:09.219] Writer run completed.
+MANAGER> PETL_24031 [2025-03-28 18:46:09.220] 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_Exc1_csv] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_Exc1_csv] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [Account] has completed.
+	Total Run Time = [0.820267] secs
+	Total Idle Time = [0.000000] secs
+	Busy Percentage = [100.000000]
+
+MANAGER> PETL_24005 [2025-03-28 18:46:09.322] Starting post-session tasks. : (Fri Mar 28 18:46:09 2025)
+POST-SESS> PETL_24091 [2025-03-28 18:46:09.323] Thread [POST-SESS] has the ID [8].
+MANAGER> PETL_24029 [2025-03-28 18:46:09.399] Post-session task completed successfully. : (Fri Mar 28 18:46:09 2025)
+MAPPING> SDKS_38510 [2025-03-28 18:46:09.399] SDK target and group deinitialized with status [0].
+MAPPING> SDKS_38025 [2025-03-28 18:46:09.399] Plug-in 500100 deinitialized and unloaded with status [0].
+MAPPING> SDKS_38019 [2025-03-28 18:46:09.399] Writer SDK plug-ins deinitialized with status [0].
+MAPPING> TM_6315 [2025-03-28 18:46:09.400] DTM error log: file log [D:\apps\Data_Integration_Server\data\error\s_dss_012X210I000000000004_3_error.csv], rows inserted [0].
+MAPPING> TM_6018 [2025-03-28 18:46:09.400] The session completed with [0] row transformation errors. 
+MANAGER> PETL_24002 [2025-03-28 18:46:09.932] Parallel Pipeline Engine finished.
+DIRECTOR> PETL_24012 [2025-03-28 18:46:09.994] Session run completed successfully.
+DIRECTOR> TM_6022 [2025-03-28 18:46:09.994] 
+
+SESSION LOAD SUMMARY
+================================================
+
+DIRECTOR> TM_6252 [2025-03-28 18:46:09.994] Source Load Summary.
+DIRECTOR> CMN_1740 [2025-03-28 18:46:09.994] Table: [SQ_Exc1_csv] (Instance Name: [SQ_Exc1_csv] Instance UI Name: [])
+	 Output Rows [10], Affected Rows [10], Applied Rows [10], Rejected Rows [0]
+DIRECTOR> TM_6253 [2025-03-28 18:46:09.994] Target Load Summary.
+DIRECTOR> CMN_1740 [2025-03-28 18:46:09.994] Table: [Account] (Instance Name: [Account] Instance UI Name: [])
+	 Output Rows [10], Affected Rows [10], Applied Rows [10], Rejected Rows [0]
+DIRECTOR> TM_6023 [2025-03-28 18:46:09.994] 
+===================================================
+
+DIRECTOR> TM_6020 [2025-03-28 18:46:09.994] Session [s_dss_012X210I000000000004] completed at [Fri Mar 28 18:46:09 2025].

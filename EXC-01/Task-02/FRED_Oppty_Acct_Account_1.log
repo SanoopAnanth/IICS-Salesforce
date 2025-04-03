@@ -1,0 +1,154 @@
+Agent Group Id: 012X2125000000000002
+Agent Group Name: d7196d40027d593
+Agent Name: d7196d40027d593
+Agent Id: 012X2108000000000002
+Task Name: FRED_Oppty_Acct_Account
+Task Type: DRS
+Task Id: 012X210G000000000002
+Run Id: 1
+Service Id: 1838778
+Started By: ananthsanoop2003@gmail.com
+Run Context Type: ICS_UI
+04/03/2025 14:35:36 **** Importing Connection: SrcConn_012X210B000000000005 ...
+04/03/2025 14:35:36 **** Importing Source Definition: Account ...
+04/03/2025 14:35:36 **** Importing Target Definition: SANOOP_ACCOUNT_csv ...
+04/03/2025 14:35:36 **** Importing SessionConfig: cfg_s_012X210G000000000002_Account ...
+    <Warning> :  The Error Log DB Connection value should have Relational: as the prefix.
+    <Warning> :  Invalid value  for attribute Error Log DB Connection. Will use the default value 
+    Validating Source Definition  Account...
+    Validating Target Definition  SANOOP_ACCOUNT_csv...
+04/03/2025 14:35:36 **** Importing Mapping: m_012X210G000000000002_Account ...
+Validating transformations of mapping m_012X210G000000000002_Account...
+Validating mapping variable(s).
+    <Warning> :  Invalid table attribute: Exec SQL
+04/03/2025 14:35:36 **** Importing Workflow: wf_dr_012X210G000000000002 ...
+    <Warning> :  Invalid value None for attribute Pushdown Optimization Context. Will use the default value None     [Session< s_012X210G000000000002_Account > ] 
+    <Warning> :  The value entered is not a valid integer.
+    <Warning> :  Invalid value NO for attribute Fail task after wait time. Will use the default value 
+[Summary for Application Source Qualifier SQ_Account]
+     Is a new repartition point.
+     Partition type changed from None to Pass Through.
+Successfully extracted session instance [s_012X210G000000000002_Account].  Starting repository sequence id is [550687161]
+======================================================================
+DIRECTOR> VAR_27085 [2025-04-03 14:35:37.381] Parameter file [D:\apps\Data_Integration_Server\data\parameters\s_012X210G000000000002_Account.param] is opened for [session [wf_dr_012X210G000000000002.s_012X210G000000000002_Account]].
+DIRECTOR> TM_6014 [2025-04-03 14:35:37.383] Initializing session [s_012X210G000000000002_Account] at [Thu Apr 03 14:35:37 2025].
+DIRECTOR> TM_6683 [2025-04-03 14:35:37.383] Repository Name: [XMLRepository]
+DIRECTOR> TM_6684 [2025-04-03 14:35:37.383] Server Name: [rDTM]
+DIRECTOR> TM_6686 [2025-04-03 14:35:37.383] Folder: []
+DIRECTOR> TM_6685 [2025-04-03 14:35:37.383] Workflow: [wf_dr_012X210G000000000002] Run Instance Name: [] Run Id: [0]
+DIRECTOR> TM_6992 [2025-04-03 14:35:37.385] Operating System Type [NT]
+DIRECTOR> TM_6101 [2025-04-03 14:35:37.385] Mapping name: m_012X210G000000000002_Account.
+DIRECTOR> TM_6964 [2025-04-03 14:35:37.385] Date format for the Session is [MM/DD/YYYY HH24:MI:SS]
+DIRECTOR> TM_6703 [2025-04-03 14:35:37.386] Session [s_012X210G000000000002_Account] is run by 64-bit Integration Service  [], version [10.2.0 HotFix2], build [0321].
+MANAGER> PETL_24091 [2025-04-03 14:35:39.559] Thread [MANAGER] has the ID [1].
+MANAGER> PETL_24058 [2025-04-03 14:35:39.559] Running Partition Group [1].
+MANAGER> PETL_24000 [2025-04-03 14:35:39.559] Parallel Pipeline Engine initializing.
+MONITOR> PETL_24091 [2025-04-03 14:35:39.562] Thread [MONITOR] has the ID [2].
+MANAGER> PETL_24001 [2025-04-03 14:35:39.562] Parallel Pipeline Engine running.
+MANAGER> PETL_24003 [2025-04-03 14:35:39.562] Initializing session run.
+MAPPING> PETL_24091 [2025-04-03 14:35:39.563] Thread [MAPPING] has the ID [3].
+MAPPING> CMN_1569 [2025-04-03 14:35:39.566] Server Mode: [UNICODE]
+MAPPING> CMN_1570 [2025-04-03 14:35:39.566] Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+MAPPING> TM_6151 [2025-04-03 14:35:39.566] The session sort order is [Binary].
+MAPPING> TM_6185 [2025-04-03 14:35:39.566] Warning. Code page validation is disabled in this session.
+MAPPING> CMN_65109 [2025-04-03 14:35:39.566] Current Timezone:[UTC +5:30]
+MAPPING> CMN_65111 [2025-04-03 14:35:39.566] Current Process ID:[2744]
+MAPPING> TM_6155 [2025-04-03 14:35:39.566] Using HIGH precision processing.
+MAPPING> TM_6180 [2025-04-03 14:35:39.566] Deadlock retry logic will not be implemented.
+MAPPING> TM_6181 [2025-04-03 14:35:39.566] Session source-based commit interval is [5000].
+MAPPING> PMJVM_42020 [2025-04-03 14:35:39.876] [INFO] Loaded library : D:\apps\agentcore\.\..\..\jdk8\jre\bin\server\jvm.dll.
+MAPPING> PMJVM_42009 [2025-04-03 14:35:39.976] [INFO] Created Java VM successfully.
+MAPPING> SDKS_38029 [2025-04-03 14:35:44.464] Loaded plug-in 500100: [plugin description].
+MAPPING> SDKS_38024 [2025-04-03 14:35:44.760] Plug-in 500100 initialization complete.
+MAPPING> SDKS_38016 [2025-04-03 14:35:44.763] Reader SDK plug-in initialization complete.
+MAPPING> TM_6307 [2025-04-03 14:35:44.763] DTM error log disabled. 
+MAPPING> TE_7022 [2025-04-03 14:35:44.763] TShmWriter: Initialized
+MAPPING> DBG_21491 [2025-04-03 14:35:44.936] Source-based commit interval based on rows from Source Qualifier [SQ_Account]
+MAPPING> DBG_21244 [2025-04-03 14:35:44.936] Initializing Load Order Group [1]. Source Qualifier is [SQ_Account]
+MAPPING> TE_7118 [2025-04-03 14:35:44.937] ZL Engine is activated.
+MAPPING> TM_6007 [2025-04-03 14:35:44.938] DTM initialized successfully for session [s_012X210G000000000002_Account]
+DIRECTOR> PETL_24033 [2025-04-03 14:35:44.938] All DTM Connection Info: [<NONE>].
+MANAGER> PETL_24004 [2025-04-03 14:35:44.938] Starting pre-session tasks. : (Thu Apr 03 14:35:44 2025)
+PRE-SESS> PETL_24091 [2025-04-03 14:35:44.939] Thread [PRE-SESS] has the ID [4].
+MANAGER> PETL_24027 [2025-04-03 14:35:45.019] Pre-session task completed successfully. : (Thu Apr 03 14:35:45 2025)
+DIRECTOR> PETL_24006 [2025-04-03 14:35:45.019] Starting data movement.
+MAPPING> TM_6966 [2025-04-03 14:35:45.020] Reducing estimate of the amount of buffer pool memory required for high performance.
+MAPPING> TM_6660 [2025-04-03 14:35:45.020] Total Buffer Pool size is 83926080 bytes and Block size is 8388608 bytes.
+READER_1_1_1> PETL_24091 [2025-04-03 14:35:45.721] Thread [READER_1_1_1] has the ID [5].
+READER_1_1_1> SalesforceConnection_10057 [2025-04-03 14:35:45.817] [INFO] No proxy information set.
+READER_1_1_1> SalesforceConnection_10048 [2025-04-03 14:35:48.561] [INFO] Account[sanoopananth2003703@agentforce.com] logged on salesforce.com at [https://login.salesforce.com/services/Soap/u/60.0].
+READER_1_1_1> SalesforceConnection_10147 [2025-04-03 14:35:48.561] [INFO] Logged on salesforce.com in [Standard] mode.
+TRANSF_1_1_1> PETL_24091 [2025-04-03 14:35:48.581] Thread [TRANSF_1_1_1] has the ID [6].
+WRITER_1_*_1> PETL_24091 [2025-04-03 14:35:48.583] Thread [WRITER_1_*_1] has the ID [7].
+WRITER_1_*_1> WRT_8397 [2025-04-03 14:35:48.586] Appending output data to file [D:\apps\Data_Integration_Server\data\error\output1.bad] (initial size [33]).
+WRITER_1_*_1> TM_6708 [2025-04-03 14:35:48.586] Using configuration property [__PMOV_FFW_ESCAPE_QUOTE,Yes]
+WRITER_1_*_1> WRT_8124 [2025-04-03 14:35:48.586] Target Table SANOOP_ACCOUNT_csv :Writing output to: C:\Users\Administrator\Documents\Salesforce\SANOOP_ACCOUNT.csv
+WRITER_1_*_1> WRT_8222 [2025-04-03 14:35:48.586] Target file [C:\Users\Administrator\Documents\Salesforce\SANOOP_ACCOUNT.csv] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+WRITER_1_*_1> WRT_8270 [2025-04-03 14:35:48.587] Target connection group #1 consists of target(s) [SANOOP_ACCOUNT_csv]
+WRITER_1_*_1> WRT_8324 [2025-04-03 14:35:48.589] Warning: Target Connection Group's connection doesn't support transactions. Targets [SANOOP_ACCOUNT_csv] may not be loaded according to specified transaction boundary rules!
+WRITER_1_*_1> WRT_8003 [2025-04-03 14:35:48.589] Writer initialization complete.
+WRITER_1_*_1> WRT_8005 [2025-04-03 14:35:48.590] Writer run started.
+WRITER_1_*_1> WRT_8158 [2025-04-03 14:35:48.590] 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Thu Apr 03 14:35:47 2025
+
+Target tables:
+
+     SANOOP_ACCOUNT_csv
+
+
+READER_1_1_1> SalesforceReader_10045 [2025-04-03 14:35:48.616] [INFO] SOQL is [SELECT Id ,IsDeleted ,MasterRecordId ,Name ,Type ,ParentId ,BillingStreet ,BillingCity ,BillingState ,BillingPostalCode ,BillingCountry ,BillingLatitude ,BillingLongitude ,BillingGeocodeAccuracy ,ShippingStreet ,ShippingCity ,ShippingState ,ShippingPostalCode ,ShippingCountry ,ShippingLatitude ,ShippingLongitude ,ShippingGeocodeAccuracy ,Phone ,Fax ,AccountNumber ,Website ,PhotoUrl ,Sic ,Industry ,AnnualRevenue ,NumberOfEmployees ,Ownership ,TickerSymbol ,Description ,Rating ,Site ,OwnerId ,CreatedDate ,CreatedById ,LastModifiedDate ,LastModifiedById ,SystemModstamp ,LastActivityDate ,LastViewedDate ,LastReferencedDate ,Jigsaw ,JigsawCompanyId ,CleanStatus ,AccountSource ,DunsNumber ,Tradestyle ,NaicsCode ,NaicsDesc ,YearStarted ,SicDesc ,DandbCompanyId ,OperatingHoursId ,CustomerPriority__c ,SLA__c ,Active__c ,NumberofLocations__c ,UpsellOpportunity__c ,SLASerialNumber__c ,SLAExpirationDate__c 
+ FROM Account].
+READER_1_1_1> SalesforceReader_10143 [2025-04-03 14:35:49.263] [INFO] Total Expected Records from Salesforce is 22.   
+TRANSF_1_1_1> DBG_21216 [2025-04-03 14:35:49.370] Finished transformations for Source Qualifier [SQ_Account]. Total errors [0] 
+WRITER_1_*_1> WRT_8167 [2025-04-03 14:35:49.370] Start loading table [SANOOP_ACCOUNT_csv] at: Thu Apr 03 14:35:48 2025
+WRITER_1_*_1> WRT_8168 [2025-04-03 14:35:49.378] End loading table [SANOOP_ACCOUNT_csv] at: Thu Apr 03 14:35:48 2025
+WRITER_1_*_1> WRT_8035 [2025-04-03 14:35:49.378] Load complete time: Thu Apr 03 14:35:48 2025
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: SANOOP_ACCOUNT_csv (Instance Name: [SANOOP_ACCOUNT_csv])
+WRT_8038 Inserted rows - Requested: 22         Applied: 22         Rejected: 0          Affected: 22        
+
+
+WRITER_1_*_1> WRT_8043 [2025-04-03 14:35:49.379] *****END LOAD SESSION*****
+WRITER_1_*_1> WRT_8006 [2025-04-03 14:35:49.379] Writer run completed.
+MANAGER> PETL_24031 [2025-04-03 14:35:49.383] 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_Account] has completed.
+	Total Run Time = [0.776413] secs
+	Total Idle Time = [0.000000] secs
+	Busy Percentage = [100.000000]
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_Account] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [SANOOP_ACCOUNT_csv] has completed. The total run time was insufficient for any meaningful statistics.
+
+MANAGER> PETL_24005 [2025-04-03 14:35:49.505] Starting post-session tasks. : (Thu Apr 03 14:35:49 2025)
+POST-SESS> PETL_24091 [2025-04-03 14:35:49.507] Thread [POST-SESS] has the ID [8].
+MANAGER> PETL_24029 [2025-04-03 14:35:49.578] Post-session task completed successfully. : (Thu Apr 03 14:35:49 2025)
+MAPPING> SDKS_38025 [2025-04-03 14:35:49.579] Plug-in 500100 deinitialized and unloaded with status [0].
+MAPPING> SDKS_38018 [2025-04-03 14:35:49.580] Reader SDK plug-ins deinitialized with status [0].
+MAPPING> TM_6018 [2025-04-03 14:35:49.580] The session completed with [0] row transformation errors. 
+MANAGER> PETL_24002 [2025-04-03 14:35:49.732] Parallel Pipeline Engine finished.
+DIRECTOR> PETL_24012 [2025-04-03 14:35:49.809] Session run completed successfully.
+DIRECTOR> VAR_27048 [2025-04-03 14:35:49.809] Persisting mapping variable values to the repository.
+DIRECTOR> VAR_27049 [2025-04-03 14:35:49.809] Mapping variable name: [$$Filter_Account], persisted value: [], run instance name [].
+DIRECTOR> VAR_27049 [2025-04-03 14:35:49.809] Mapping variable name: [$$CDCStartTime_Account], persisted value: [], run instance name [].
+DIRECTOR> VAR_27049 [2025-04-03 14:35:49.809] Mapping variable name: [$$CDCEndTime_Account], persisted value: [], run instance name [].
+DIRECTOR> TM_6022 [2025-04-03 14:35:49.809] 
+
+SESSION LOAD SUMMARY
+================================================
+
+DIRECTOR> TM_6252 [2025-04-03 14:35:49.809] Source Load Summary.
+DIRECTOR> CMN_1740 [2025-04-03 14:35:49.810] Table: [SQ_Account] (Instance Name: [SQ_Account] Instance UI Name: [])
+	 Output Rows [22], Affected Rows [22], Applied Rows [22], Rejected Rows [0]
+DIRECTOR> TM_6253 [2025-04-03 14:35:49.810] Target Load Summary.
+DIRECTOR> CMN_1740 [2025-04-03 14:35:49.810] Table: [SANOOP_ACCOUNT_csv] (Instance Name: [SANOOP_ACCOUNT_csv] Instance UI Name: [])
+	 Output Rows [22], Affected Rows [22], Applied Rows [22], Rejected Rows [0]
+DIRECTOR> TM_6023 [2025-04-03 14:35:49.810] 
+===================================================
+
+DIRECTOR> TM_6020 [2025-04-03 14:35:49.810] Session [s_012X210G000000000002_Account] completed at [Thu Apr 03 14:35:49 2025].
