@@ -1,0 +1,171 @@
+Agent Group Id: 012X2125000000000002
+Agent Group Name: d7196d40027d593
+Agent Name: d7196d40027d593
+Agent Id: 012X2108000000000002
+Task Name: Sanoop_MultiTarget_Parameters
+Task Type: MTT
+Task Id: 012X210Z00000000000T
+Run Id: 1
+Service Id: 1838778
+Started By: ananthsanoop2003@gmail.com
+Run Context Type: ICS_UI
+04/03/2025 16:28:21 **** Importing Connection: Conn_012X210B00000000000C ...
+04/03/2025 16:28:21 **** Importing Source Definition: Opportunity ...
+04/03/2025 16:28:21 **** Importing Target Definition: HighProbabilityOpportunities_csv ...
+04/03/2025 16:28:21 **** Importing Target Definition: LowProbabilityOpportunities_csv ...
+04/03/2025 16:28:21 **** Importing SessionConfig: default_session_config ...
+    <Warning> :  The Error Log DB Connection value should have Relational: as the prefix.
+    <Warning> :  Invalid value  for attribute Error Log DB Connection. Will use the default value 
+    Validating Source Definition  Opportunity...
+    Validating Target Definition  LowProbabilityOpportunities_csv...
+    Validating Target Definition  HighProbabilityOpportunities_csv...
+04/03/2025 16:28:22 **** Importing Mapping: Mapping0 ...
+Validating transformations of mapping Mapping0...
+Validating mapping variable(s).
+    <Warning> :  Invalid table attribute: Exec SQL
+04/03/2025 16:28:22 **** Importing Workflow: wf_mtt_012X210Z00000000000T ...
+    <Warning> :  Invalid value None for attribute Pushdown Optimization Context. Will use the default value None     [Session< s_mtt_012X210Z00000000000T > ] 
+    <Warning> :  The value entered is not a valid integer.
+    <Warning> :  Invalid value NO for attribute Fail task after wait time. Will use the default value 
+[Summary for Application Source Qualifier SO_Salesforce]
+     Is a new repartition point.
+     Partition type changed from None to Pass Through.
+Successfully extracted session instance [s_mtt_012X210Z00000000000T].  Starting repository sequence id is [1417587886]
+======================================================================
+PETL_24036 [2025-04-03 16:28:21.464] Beginning the prepare phase for the session.
+TM_6721 [2025-04-03 16:28:21.465] Started [Connect to Repository].
+TM_6722 [2025-04-03 16:28:21.613] Finished [Connect to Repository].  It took [0.148964] seconds.
+TM_6721 [2025-04-03 16:28:21.613] Started [Fetch Session from Repository].
+TM_6722 [2025-04-03 16:28:21.894] Finished [Fetch Session from Repository].  It took [0.281061] seconds.
+VAR_27085 [2025-04-03 16:28:22.161] Parameter file [D:\apps\Data_Integration_Server\data\parameters\s_mtt_012X210Z00000000000T.param] is opened for [session [wf_mtt_012X210Z00000000000T.s_mtt_012X210Z00000000000T]].
+VAR_27062 [2025-04-03 16:28:22.162] Warning! Cannot find section for worklet [wf_mtt_012X210Z00000000000T] and folder [] in parameter file [D:\apps\Data_Integration_Server\data\parameters\s_mtt_012X210Z00000000000T.param].
+TM_6721 [2025-04-03 16:28:22.586] Started [Partition Group Formation].
+TM_6722 [2025-04-03 16:28:22.586] Finished [Partition Group Formation].  It took [0.00104284] seconds.
+PETL_24037 [2025-04-03 16:28:22.586] Finished the prepare phase for the session.
+DIRECTOR> TM_6228 [2025-04-03 16:28:22.587] Writing session output to log file [D:\apps\Data_Integration_Server\data\..\logs\s_mtt_kh1uGwHbQWzfC3oS3xP1It_1.log].
+DIRECTOR> VAR_27085 [2025-04-03 16:28:22.590] Parameter file [D:\apps\Data_Integration_Server\data\parameters\s_mtt_012X210Z00000000000T.param] is opened for [session [wf_mtt_012X210Z00000000000T.s_mtt_012X210Z00000000000T]].
+DIRECTOR> VAR_27062 [2025-04-03 16:28:22.591] Warning! Cannot find section for worklet [wf_mtt_012X210Z00000000000T] and folder [] in parameter file [D:\apps\Data_Integration_Server\data\parameters\s_mtt_012X210Z00000000000T.param].
+DIRECTOR> TM_6014 [2025-04-03 16:28:22.591] Initializing session [s_mtt_012X210Z00000000000T] at [Thu Apr 03 16:28:22 2025].
+DIRECTOR> TM_6683 [2025-04-03 16:28:22.591] Repository Name: [XMLRepository]
+DIRECTOR> TM_6684 [2025-04-03 16:28:22.591] Server Name: [rDTM]
+DIRECTOR> TM_6686 [2025-04-03 16:28:22.591] Folder: []
+DIRECTOR> TM_6685 [2025-04-03 16:28:22.591] Workflow: [wf_mtt_012X210Z00000000000T] Run Instance Name: [] Run Id: [0]
+DIRECTOR> TM_6992 [2025-04-03 16:28:22.591] Operating System Type [NT]
+DIRECTOR> TM_6101 [2025-04-03 16:28:22.591] Mapping name: Mapping0.
+DIRECTOR> TM_6964 [2025-04-03 16:28:22.592] Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+DIRECTOR> TM_6703 [2025-04-03 16:28:22.592] Session [s_mtt_012X210Z00000000000T] is run by 64-bit Integration Service  [], version [10.2.0 HotFix2], build [0321].
+MANAGER> PETL_24091 [2025-04-03 16:28:24.768] Thread [MANAGER] has the ID [1].
+MANAGER> PETL_24058 [2025-04-03 16:28:24.768] Running Partition Group [1].
+MANAGER> PETL_24000 [2025-04-03 16:28:24.768] Parallel Pipeline Engine initializing.
+MONITOR> PETL_24091 [2025-04-03 16:28:24.769] Thread [MONITOR] has the ID [2].
+MANAGER> PETL_24001 [2025-04-03 16:28:24.770] Parallel Pipeline Engine running.
+MANAGER> PETL_24003 [2025-04-03 16:28:24.770] Initializing session run.
+MAPPING> PETL_24091 [2025-04-03 16:28:24.771] Thread [MAPPING] has the ID [3].
+MAPPING> CMN_1569 [2025-04-03 16:28:24.775] Server Mode: [UNICODE]
+MAPPING> CMN_1570 [2025-04-03 16:28:24.775] Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+MAPPING> TM_6151 [2025-04-03 16:28:24.776] The session sort order is [Binary].
+MAPPING> TM_6185 [2025-04-03 16:28:24.776] Warning. Code page validation is disabled in this session.
+MAPPING> CMN_65109 [2025-04-03 16:28:24.776] Current Timezone:[UTC +5:30]
+MAPPING> CMN_65111 [2025-04-03 16:28:24.776] Current Process ID:[1388]
+MAPPING> TM_6155 [2025-04-03 16:28:24.776] Using HIGH precision processing.
+MAPPING> TM_6180 [2025-04-03 16:28:24.776] Deadlock retry logic will not be implemented.
+MAPPING> TM_6187 [2025-04-03 16:28:24.776] Session target-based commit interval is [10000].
+MAPPING> PMJVM_42020 [2025-04-03 16:28:24.784] [INFO] Loaded library : D:\apps\agentcore\.\..\..\jdk8\jre\bin\server\jvm.dll.
+MAPPING> PMJVM_42009 [2025-04-03 16:28:24.870] [INFO] Created Java VM successfully.
+MAPPING> SDKS_38029 [2025-04-03 16:28:24.985] Loaded plug-in 500100: [plugin description].
+MAPPING> SDKS_38024 [2025-04-03 16:28:25.050] Plug-in 500100 initialization complete.
+MAPPING> SDKS_38016 [2025-04-03 16:28:25.051] Reader SDK plug-in initialization complete.
+MAPPING> TM_6307 [2025-04-03 16:28:25.051] DTM error log disabled. 
+MAPPING> TE_7022 [2025-04-03 16:28:25.052] TShmWriter: Initialized
+MAPPING> TM_6007 [2025-04-03 16:28:25.140] DTM initialized successfully for session [s_mtt_012X210Z00000000000T]
+DIRECTOR> PETL_24033 [2025-04-03 16:28:25.141] All DTM Connection Info: [<NONE>].
+MANAGER> PETL_24004 [2025-04-03 16:28:25.141] Starting pre-session tasks. : (Thu Apr 03 16:28:25 2025)
+PRE-SESS> PETL_24091 [2025-04-03 16:28:25.142] Thread [PRE-SESS] has the ID [4].
+MANAGER> PETL_24027 [2025-04-03 16:28:25.218] Pre-session task completed successfully. : (Thu Apr 03 16:28:25 2025)
+DIRECTOR> PETL_24006 [2025-04-03 16:28:25.218] Starting data movement.
+MAPPING> TM_6966 [2025-04-03 16:28:25.218] Reducing estimate of the amount of buffer pool memory required for high performance.
+MAPPING> TM_6660 [2025-04-03 16:28:25.218] Total Buffer Pool size is 134277728 bytes and Block size is 8388608 bytes.
+READER_1_1_1> PETL_24091 [2025-04-03 16:28:25.820] Thread [READER_1_1_1] has the ID [5].
+READER_1_1_1> SalesforceConnection_10057 [2025-04-03 16:28:25.878] [INFO] No proxy information set.
+READER_1_1_1> SalesforceConnection_10048 [2025-04-03 16:28:28.399] [INFO] Account[sanoopananth2003703@agentforce.com] logged on salesforce.com at [https://login.salesforce.com/services/Soap/u/60.0].
+READER_1_1_1> SalesforceConnection_10147 [2025-04-03 16:28:28.399] [INFO] Logged on salesforce.com in [Standard] mode.
+TRANSF_1_1_1> PETL_24091 [2025-04-03 16:28:28.417] Thread [TRANSF_1_1_1] has the ID [6].
+WRITER_1_*_1> PETL_24091 [2025-04-03 16:28:28.419] Thread [WRITER_1_*_1] has the ID [7].
+WRITER_1_*_1> TM_6708 [2025-04-03 16:28:28.424] Using configuration property [__PMOV_FFW_ESCAPE_QUOTE,Yes]
+WRITER_1_*_1> WRT_8124 [2025-04-03 16:28:28.427] Target Table HighProbabilityOpportunities_csv :Writing output to: C:\Users\Administrator\Documents\IICS-Salesforce\EXC-02\Source\HighProbabilityOpportunities.csv
+WRITER_1_*_1> WRT_8222 [2025-04-03 16:28:28.428] Target file [C:\Users\Administrator\Documents\IICS-Salesforce\EXC-02\Source\HighProbabilityOpportunities.csv] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+WRITER_1_*_1> TM_6708 [2025-04-03 16:28:28.432] Using configuration property [__PMOV_FFW_ESCAPE_QUOTE,Yes]
+WRITER_1_*_1> WRT_8124 [2025-04-03 16:28:28.432] Target Table LowProbabilityOpportunities_csv :Writing output to: C:\Users\Administrator\Documents\IICS-Salesforce\EXC-02\Source\LowProbabilityOpportunities.csv
+WRITER_1_*_1> WRT_8222 [2025-04-03 16:28:28.432] Target file [C:\Users\Administrator\Documents\IICS-Salesforce\EXC-02\Source\LowProbabilityOpportunities.csv] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+WRITER_1_*_1> WRT_8270 [2025-04-03 16:28:28.432] Target connection group #1 consists of target(s) [HighProbabilityOpportunities_csv]
+WRITER_1_*_1> WRT_8270 [2025-04-03 16:28:28.432] Target connection group #2 consists of target(s) [LowProbabilityOpportunities_csv]
+WRITER_1_*_1> WRT_8003 [2025-04-03 16:28:28.432] Writer initialization complete.
+WRITER_1_*_1> WRT_8005 [2025-04-03 16:28:28.433] Writer run started.
+WRITER_1_*_1> WRT_8158 [2025-04-03 16:28:28.433] 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Thu Apr 03 16:28:27 2025
+
+Target tables:
+
+     HighProbabilityOpportunities_csv
+     LowProbabilityOpportunities_csv
+
+
+READER_1_1_1> SalesforceReader_10045 [2025-04-03 16:28:28.441] [INFO] SOQL is [SELECT Id ,IsDeleted ,AccountId ,IsPrivate ,Name ,Description ,StageName ,Amount ,Probability ,ExpectedRevenue ,TotalOpportunityQuantity ,CloseDate ,Type ,NextStep ,LeadSource ,IsClosed ,IsWon ,ForecastCategory ,ForecastCategoryName ,CampaignId ,HasOpportunityLineItem ,Pricebook2Id ,OwnerId ,CreatedDate ,CreatedById ,LastModifiedDate ,LastModifiedById ,SystemModstamp ,LastActivityDate ,FiscalQuarter ,FiscalYear ,Fiscal 
+ FROM Opportunity].
+READER_1_1_1> SalesforceReader_10143 [2025-04-03 16:28:29.043] [INFO] Total Expected Records from Salesforce is 33.   
+TRANSF_1_1_1> DBG_21216 [2025-04-03 16:28:29.167] Finished transformations for Source Qualifier [SO_Salesforce]. Total errors [0] 
+WRITER_1_*_1> WRT_8167 [2025-04-03 16:28:29.167] Start loading table [HighProbabilityOpportunities_csv] at: Thu Apr 03 16:28:28 2025
+WRITER_1_*_1> WRT_8167 [2025-04-03 16:28:29.171] Start loading table [LowProbabilityOpportunities_csv] at: Thu Apr 03 16:28:28 2025
+WRITER_1_*_1> WRT_8168 [2025-04-03 16:28:29.177] End loading table [HighProbabilityOpportunities_csv] at: Thu Apr 03 16:28:28 2025
+WRITER_1_*_1> WRT_8168 [2025-04-03 16:28:29.181] End loading table [LowProbabilityOpportunities_csv] at: Thu Apr 03 16:28:28 2025
+WRITER_1_*_1> WRT_8035 [2025-04-03 16:28:29.181] Load complete time: Thu Apr 03 16:28:28 2025
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: HighProbabilityOpportunities_csv (Instance Name: [HighProbabilityOpportunities_csv])
+WRT_8038 Inserted rows - Requested: 24         Applied: 24         Rejected: 0          Affected: 24        
+
+WRT_8036 Target: LowProbabilityOpportunities_csv (Instance Name: [LowProbabilityOpportunities_csv])
+WRT_8038 Inserted rows - Requested: 10         Applied: 10         Rejected: 0          Affected: 10        
+
+
+WRITER_1_*_1> WRT_8043 [2025-04-03 16:28:29.181] *****END LOAD SESSION*****
+WRITER_1_*_1> WRT_8006 [2025-04-03 16:28:29.182] Writer run completed.
+MANAGER> PETL_24031 [2025-04-03 16:28:29.185] 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SO_Salesforce] has completed.
+	Total Run Time = [0.725935] secs
+	Total Idle Time = [0.000000] secs
+	Busy Percentage = [100.000000]
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SO_Salesforce] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [HighProbabilityOpportunities_csv, LowProbabilityOpportunities_csv] has completed. The total run time was insufficient for any meaningful statistics.
+
+MANAGER> PETL_24005 [2025-04-03 16:28:29.324] Starting post-session tasks. : (Thu Apr 03 16:28:29 2025)
+POST-SESS> PETL_24091 [2025-04-03 16:28:29.325] Thread [POST-SESS] has the ID [8].
+MANAGER> PETL_24029 [2025-04-03 16:28:29.403] Post-session task completed successfully. : (Thu Apr 03 16:28:29 2025)
+MAPPING> SDKS_38025 [2025-04-03 16:28:29.404] Plug-in 500100 deinitialized and unloaded with status [0].
+MAPPING> SDKS_38018 [2025-04-03 16:28:29.404] Reader SDK plug-ins deinitialized with status [0].
+MAPPING> TM_6018 [2025-04-03 16:28:29.404] The session completed with [0] row transformation errors. 
+MANAGER> PETL_24002 [2025-04-03 16:28:29.916] Parallel Pipeline Engine finished.
+DIRECTOR> PETL_24012 [2025-04-03 16:28:29.993] Session run completed successfully.
+DIRECTOR> TM_6022 [2025-04-03 16:28:29.993] 
+
+SESSION LOAD SUMMARY
+================================================
+
+DIRECTOR> TM_6252 [2025-04-03 16:28:29.993] Source Load Summary.
+DIRECTOR> CMN_1740 [2025-04-03 16:28:29.993] Table: [SO_Salesforce] (Instance Name: [SO_Salesforce] Instance UI Name: [SO_Salesforce])
+	 Output Rows [33], Affected Rows [33], Applied Rows [33], Rejected Rows [0]
+DIRECTOR> TM_6253 [2025-04-03 16:28:29.993] Target Load Summary.
+DIRECTOR> CMN_1740 [2025-04-03 16:28:29.993] Table: [HighProbabilityOpportunities_csv] (Instance Name: [HighProbabilityOpportunities_csv] Instance UI Name: [TG_HighProbOppotys])
+	 Output Rows [24], Affected Rows [24], Applied Rows [24], Rejected Rows [0]
+DIRECTOR> CMN_1740 [2025-04-03 16:28:29.993] Table: [LowProbabilityOpportunities_csv] (Instance Name: [LowProbabilityOpportunities_csv] Instance UI Name: [TG_LowProbOppotys])
+	 Output Rows [10], Affected Rows [10], Applied Rows [10], Rejected Rows [0]
+DIRECTOR> TM_6023 [2025-04-03 16:28:29.993] 
+===================================================
+
+DIRECTOR> TM_6020 [2025-04-03 16:28:29.993] Session [s_mtt_012X210Z00000000000T] completed at [Thu Apr 03 16:28:29 2025].
